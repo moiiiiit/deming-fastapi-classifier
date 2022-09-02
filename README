@@ -1,0 +1,10 @@
+This project uses pipenv to set the python version and deal with virtual environments (for the sake of consistency).
+https://pipenv.pypa.io/en/latest/basics/
+
+1. "brew install pipenv"
+
+To start, open shell and run main (assuming pipenv initialized to the project pipenv virtual env)- 
+"python main.py"
+
+To run tests, in the pipenv shell, run:
+"pytest"
