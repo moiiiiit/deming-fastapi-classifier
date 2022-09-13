@@ -9,4 +9,4 @@ def test_auth():
     assert response.status_code == 200
     assert response.json() == {"status": "Authenticated"}
 
-test_auth();
+test_auth()
